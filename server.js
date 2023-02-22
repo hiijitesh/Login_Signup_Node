@@ -3,8 +3,7 @@ const app = require('./app')
 const server = http.createServer(app)
 
 
-const { PORT } = process.env
-const port = process.env.PORT || PORT
+const port = process.env.PORT || 8000
 
 
 
